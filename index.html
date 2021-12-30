@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Light bult</title>
+        <link rel="stylesheet" href="samsung.css">
+    </head>
+    <body>
+<div id="all"></div>
+<div class="permivij"></div>
+<div class="korniza">
+    <button onclick="on()">ON</button>
+<button onclick="off()">Off</button>
+</div>
+    </body>
+</html>
+
+<script>
+function on(){
+    var x = document.getElementById('all')
+    x.style.background = "white"
+    x.style.boxShadow = " 0 0 30px 	#3ECAE8"
+    x.style.backgroundImage = "url(heh.jpg)"
+    x.style.backgroundSize = "cover"
+}
+function off(){
+    var x = document.getElementById('all')
+    x.style.background = "grey";
+    x.style.boxShadow = "none"
+}
+</script>
