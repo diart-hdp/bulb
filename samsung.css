@@ -1,0 +1,63 @@
+html{
+    background-image: url(wall.jpg);
+    background-size: cover;
+}
+
+#all{
+    width: 5cm;
+    height: 5cm;
+    background: rgb(3, 113, 163);
+
+    border-radius: 50%;
+    margin-left: 17cm;
+    margin-top: 6cm;
+}
+.permivij{
+    position: absolute;
+    left: 18.4cm;
+    top: 6cm;
+    width: 2.6cm;
+    height: 15px;
+    background: rgb(3, 113, 163);
+}
+#all::before{
+    content: '';
+    position: absolute;
+    background: rgb(100, 52, 52);
+    width: 2.5cm;
+    margin-left: 46px;
+    margin-top: -2cm;
+    height: 2cm;
+}
+#all::after{
+    content: '';
+    position: absolute;
+    background: rgb(0, 0, 0);
+    width: 2.5cm;
+    margin-left: 46px;
+    margin-top: -3cm;
+    height: 2cm;
+    border-radius: 40px 40px 0px 0px;
+}
+
+button{
+ width: 4cm;
+ height: 3.5cm;
+ background: #7DF9FF;
+ font-size: 15px;
+ border: thick;
+ border-bottom: 1px solid black;
+
+}
+
+button:hover{
+    box-shadow: 0 0 10px 	#3ECAE8;
+}
+
+.korniza{
+    width: 4cm;
+    height: 7cm;
+    border: 5px solid black;
+    margin-left: 17.4cm;
+    margin-top: 20px;
+}
